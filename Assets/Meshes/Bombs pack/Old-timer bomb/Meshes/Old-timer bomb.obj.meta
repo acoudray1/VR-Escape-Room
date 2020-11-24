@@ -1,29 +1,65 @@
 fileFormatVersion: 2
 guid: d6d6a960df51c5446a739eb62d37348b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Old_timer_bomb
-    100004: Old_timer_bomb_collider
-    100006: old_timer_bomb_glass
-    400000: //RootNode
-    400002: Old_timer_bomb
-    400004: Old_timer_bomb_collider
-    400006: old_timer_bomb_glass
-    2300000: Old_timer_bomb
-    2300002: Old_timer_bomb_collider
-    2300004: old_timer_bomb_glass
-    3300000: Old_timer_bomb
-    3300002: Old_timer_bomb_collider
-    3300004: old_timer_bomb_glass
-    4300000: Old_timer_bomb
-    4300002: Old_timer_bomb_collider
-    4300004: old_timer_bomb_glass
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Old_timer_bomb
+  - first:
+      1: 100004
+    second: Old_timer_bomb_collider
+  - first:
+      1: 100006
+    second: old_timer_bomb_glass
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Old_timer_bomb
+  - first:
+      4: 400004
+    second: Old_timer_bomb_collider
+  - first:
+      4: 400006
+    second: old_timer_bomb_glass
+  - first:
+      23: 2300000
+    second: Old_timer_bomb
+  - first:
+      23: 2300002
+    second: Old_timer_bomb_collider
+  - first:
+      23: 2300004
+    second: old_timer_bomb_glass
+  - first:
+      33: 3300000
+    second: Old_timer_bomb
+  - first:
+      33: 3300002
+    second: Old_timer_bomb_collider
+  - first:
+      33: 3300004
+    second: old_timer_bomb_glass
+  - first:
+      43: 4300000
+    second: Old_timer_bomb
+  - first:
+      43: 4300002
+    second: Old_timer_bomb_collider
+  - first:
+      43: 4300004
+    second: old_timer_bomb_glass
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 0
     materialLocation: 0
@@ -56,25 +92,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -83,10 +122,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -96,13 +135,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
