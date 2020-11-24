@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5677794420234043985}
   - component: {fileID: 5677794420214646545}
   - component: {fileID: 5677794420214693555}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: particle smoke slave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4620,7 +4620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5677794420234043987}
   - component: {fileID: 5677794420214646547}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Explosion single sharp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9314,7 +9314,7 @@ GameObject:
   - component: {fileID: 5677794420234043989}
   - component: {fileID: 5677794420214646549}
   - component: {fileID: 5677794420214693559}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: particle glow large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13978,7 +13978,7 @@ GameObject:
   - component: {fileID: 5677794420234043991}
   - component: {fileID: 5677794420214646551}
   - component: {fileID: 5677794420214693553}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: particle glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18642,7 +18642,7 @@ GameObject:
   - component: {fileID: 5677794420234043993}
   - component: {fileID: 5677794420214646553}
   - component: {fileID: 5677794420214693561}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: particle fireball slave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23252,7 +23252,7 @@ GameObject:
   - component: {fileID: 5677794420234043995}
   - component: {fileID: 5677794420214646555}
   - component: {fileID: 5677794420214693563}
-  m_Layer: 1
+  m_Layer: 11
   m_Name: particle fireball glow slave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27843,7 +27843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5677794420234043997}
   - component: {fileID: 5677794420214646557}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: particle smoke master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32462,7 +32462,7 @@ GameObject:
   - component: {fileID: 5677794420234043999}
   - component: {fileID: 5677794420214646559}
   - component: {fileID: 5478861440614441711}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: particle fireball master
   m_TagString: Untagged
   m_Icon: {fileID: 0}

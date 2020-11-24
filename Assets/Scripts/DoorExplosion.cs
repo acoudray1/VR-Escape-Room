@@ -4,17 +4,26 @@ using UnityEngine;
 
 public class DoorExplosion : MonoBehaviour
 {
-    [Header("Unity Setup")]
-    public ParticleSystem explosionParticles;
+    
+    public GameObject explosionPrefab;
 
-    private void onCollisionEnter(Collision collision) {
-        if (collision.collider.CompareTag("Bomb")) {
-            this.Destroy();
+    /*void onCollisionEnter(Collision other) {
+        if (other.gameObject.tag == "Bomb" || other.gameObject.name == "SFL_Door") {
+            ContactPoint contact = other.contacts[0];
+            Quaternion rotation = Quaternion.FromToRotation(Vector3.up, contact.normal);
+            Vector3 position = contact.point;
+            Instantiate(explosionPrefab, position, rotation);
+            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
-    }
+    }*/
 
-    private void Destroy() {
-        Instantiate(this.explosionParticles, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Bomb" || other.gameObject.name == "Door") {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
     }
 }
